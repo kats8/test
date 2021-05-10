@@ -4,12 +4,10 @@ declared-services:
     label: cloud-object-storage
     plan: lite
 applications:
-- path: .
-  memory: 64M
-  instances: 1
-  domain: mybluemix.net
-  name: cos-web-gallery
-  host: test-web-image
-  disk_quota: 1024M
+- name: testingOnly
   services:
-  - cloud-object-storage
+  - cwg-cloud-object-storage
+  command: npm start
+  path: .
+  instances: 1
+  memory: 64MB
