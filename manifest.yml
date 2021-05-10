@@ -12,5 +12,5 @@ applications:
   host: test-web-image
   disk_quota: 1024M
   services:
-  - cwg-cloud-object-storage
+  - my-cloud-object-storage
 
