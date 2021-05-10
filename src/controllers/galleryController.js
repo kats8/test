@@ -19,7 +19,7 @@ var galleryController = function(title) {
     var multerS3 = require('multer-s3');
     var ep = new aws.Endpoint('s3.au-syd.cloud-object-storage.appdomain.cloud');
     var s3 = new aws.S3({endpoint: ep, region: 'au-syd'}); //au-syd? us-south?
-    var myBucket = 'web-images-olaph';
+    var myBucket = 'cloud-object-storage-fish-images';
 
     var upload = multer({
         storage: multerS3({
