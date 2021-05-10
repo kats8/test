@@ -5,7 +5,7 @@ declared-services:
     plan: lite
 applications:
 - path: .
-  memory: 256M
+  memory: 128M
   instances: 1
   domain: mybluemix.net
   name: test-web-image
