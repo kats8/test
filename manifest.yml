@@ -12,5 +12,5 @@ applications:
   host: test-web-image
   disk_quota: 1024M
   services:
-  - my-cloud-object-storage
+  - crn:v1:bluemix:public:cloud-object-storage:global:a/a45d044e68ff4d7a812125bc0a386c6a:72454b77-1720-42da-992d-3cb09d66a1db::
 
