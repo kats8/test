@@ -12,4 +12,4 @@ applications:
   host: test-web-image
   disk_quota: 1024M
   services:
-  - cloud-object-storage-fish-images
+  - cloud-object-storage
