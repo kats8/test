@@ -8,8 +8,8 @@ applications:
   memory: 64M
   instances: 1
   domain: mybluemix.net
-  name: cos-web-gallery
+  name: test-web-image
   host: test-web-image
   disk_quota: 1024M
   services:
-  - cwg-cloud-object-storage
+  - cloud-object-storage-dsx
